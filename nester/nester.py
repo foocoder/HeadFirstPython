@@ -12,3 +12,9 @@ def print_lol(the_list, indent=False, level=0):
                 for tab_stop in range(level):
                     print('\t'),
             print(each_item);
+
+#Testing Module
+if __name__ == '__main__':
+    names = ['John','Eric',['Cleese','Idle'],'Michael',['Palin']];
+    print_lol(names,True);
+
